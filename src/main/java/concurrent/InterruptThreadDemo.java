@@ -1,7 +1,7 @@
 package concurrent;
 
 /**
- * interrupt
+ * interrupt 线程中断
  */
 public class InterruptThreadDemo {
     public static void main(String[] args) throws InterruptedException {
@@ -17,6 +17,7 @@ public class InterruptThreadDemo {
         });
         t.start();
         Thread.sleep(1000);
+        // 中断t线程
         t.interrupt();
     }
 }
