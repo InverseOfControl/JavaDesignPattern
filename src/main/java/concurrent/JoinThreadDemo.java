@@ -2,7 +2,7 @@ package concurrent;
 
 /**
  * join
- * 阻塞主线程，知道子线程运行完毕
+ * 阻塞主线程，直到子线程运行完毕
  * 通过interrupt中断join，和sleep一样
  */
 public class JoinThreadDemo {
